@@ -1,7 +1,5 @@
-import { type } from '@testing-library/user-event/dist/type';
-import { Button,Modal,Input,Form} from 'antd';
-import { stringify } from 'querystring';
-import React,{useState,FC} from 'react';
+import { Button,Modal,Input} from 'antd';
+import React,{useState} from 'react';
 
 type MymodalProps ={
   handAdd:(dataSet:{name:string,age:string,address:string})=>void

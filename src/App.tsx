@@ -1,8 +1,7 @@
 import React,{useState} from 'react';
-import {Popconfirm,Table,Typography, Space,} from 'antd';
+import {Popconfirm,Table} from 'antd';
 import './App.css';
 import MyModal from './components/MyModal';
-import { count } from 'console';
 
 interface DataType{
   key:React.Key;
